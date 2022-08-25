@@ -38,7 +38,7 @@ function registrar() {
             if( nuevcontraseña === repetcontraseña ){
                 //contraseña = repetcontraseña ;
                 arrayContraseñas.push(repetcontraseña);
-                console.log("Bienvenid@!", nombre,) ;    
+                console.log("Se ha registrado con exito!") ;    
             }else{
                 console.log("Sus contraseñas no coinciden, vuelva a repetir el paso") ; 
             }
