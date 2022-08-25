@@ -26,7 +26,7 @@ function registrar() {
     const nuevcontraseña = document.getElementById("nuevcontraseña").value.toLowerCase() ;
     const repetcontraseña = document.getElementById("repetcontraseña").value.toLowerCase() ;
     const checkNomUsuario = arrayUsuarios.some( arrayUsuarios => arrayUsuarios  === nomususario ) ;
-    const checkEmail = false ;//= arrayUsuarios.some( arrayUsuarios => arrayUsuarios  === email ) ;
+    const checkEmail = datosUsuarios.some( arrayUsuarios => arrayUsuarios  === email.value ) ;
     
     guardarDatosLS() ;
     guardarDatos() ;
